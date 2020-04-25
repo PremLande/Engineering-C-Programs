@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+struct student{
+
+int roll;
+char name[20];
+};
+void main(){
+
+printf("enter roll and name");
+scanf("%d%s",&student->roll,student->name);
+
+
+printf("roll num=%d name=%s",student->roll,student->name);
+
+}
+
+
